@@ -45,8 +45,7 @@ app.post("/", (req, res) => {
   const jsonData = JSON.stringify(data);
 
 //People tend to have clever placeholders for their apps, while I use only "ligma" "deez" "balls" and gibberish, I'm truly one of the developers of all time.
-  const listID = '545669fa1a'
-  const url = "https://us11.api.mailchimp.com/3.0/lists/" + listID;
+  const url = "https://us11.api.mailchimp.com/3.0/lists/545669fa1a";
   const options = {
     method: "POST",
     auth: "ligma:cf4365e4c02b92324789b652c704252a-us11", //replace this with your own string:api_key, the string can be anything.

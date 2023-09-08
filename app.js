@@ -48,7 +48,7 @@ app.post("/", (req, res) => {
   const url = "https://us11.api.mailchimp.com/3.0/lists/545669fa1a";
   const options = {
     method: "POST",
-    auth: "ligma:cf4365e4c02b92324789b652c704252a-us11", //replace this with your own string:api_key, the string can be anything.
+    auth: "ligma:40406bf29513709ad096e40166fabf9b-us11", //replace this with your own string:api_key, the string can be anything.
   };
   const request = https.request(url, options, (response) => {
 
@@ -80,5 +80,5 @@ app.listen(process.env.PORT || 3000, () => {
   console.log("listening on 3000");
 });
 
-//API key: cf4365e4c02b92324789b652c704252a-us11
+//API key: 40406bf29513709ad096e40166fabf9b-us11
 //List ID: 545669fa1a
